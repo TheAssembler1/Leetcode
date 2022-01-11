@@ -9,7 +9,6 @@ class Solution {
 
     	while(left <= right){
     		if(Math.abs(nums[left]) > Math.abs(nums[right])){
-    			//FIXME::Don't undestand this line here
     			newNums[right - left] = nums[left] * nums[left];
     			left++;
     		}else{
